@@ -1,0 +1,43 @@
+{
+  "name": "wallaby-try-pnp",
+  "scripts": {
+    "test": "TZ=UTC NODE_OPTIONS=\"--unhandled-rejections=strict ${NODE_OPTIONS:-}\" jest --config jest.config.js --color"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-proposal-private-methods": "7.13.0",
+    "@babel/plugin-proposal-private-property-in-object": "7.13.0",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "7.13.8",
+    "@babel/plugin-transform-react-jsx-source": "7.12.13",
+    "@babel/plugin-transform-shorthand-properties": "7.12.13",
+    "@babel/preset-env": "7.13.12",
+    "@babel/preset-react": "7.13.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@testing-library/dom": "7.29.4",
+    "@testing-library/jest-dom": "5.11.6",
+    "@testing-library/react": "11.2.3",
+    "@testing-library/react-hooks": "3.4.1",
+    "@testing-library/user-event": "12.5.0",
+    "@types/jest": "^26.0.23",
+    "babel-plugin-dynamic-import-node": "1.2.0",
+    "babel-plugin-lodash": "3.3.2",
+    "babel-plugin-preval": "3.0.1",
+    "handlebars": "1.3.0",
+    "handlebars-jest": "0.5.0",
+    "jest": "26.6.1",
+    "jest-canvas-mock": "1.0.2",
+    "jest-circus": "26.6.1",
+    "jest-environment-jsdom": "26.6.1",
+    "jest-serializer-html": "5.0.0",
+    "jest-watcher": "26.6.1",
+    "react-test-renderer": "16.13.0",
+    "typescript": "4.1.2"
+  },
+  "dependencies": {
+    "jquery": "1.12.3",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  }
+}
