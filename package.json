@@ -30,6 +30,7 @@
     "jest-canvas-mock": "1.0.2",
     "jest-circus": "26.6.1",
     "jest-environment-jsdom": "26.6.1",
+    "jest-jasmine2": "^26.6.3",
     "jest-serializer-html": "5.0.0",
     "jest-watcher": "26.6.1",
     "react-test-renderer": "16.13.0",
