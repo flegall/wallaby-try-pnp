@@ -1,7 +1,7 @@
 {
   "name": "wallaby-try-pnp",
   "scripts": {
-    "test": "TZ=UTC NODE_OPTIONS=\"--unhandled-rejections=strict ${NODE_OPTIONS:-}\" jest --config jest.config.js --color"
+    "test": "TZ=UTC NODE_OPTIONS=\"--unhandled-rejections=strict ${NODE_OPTIONS:-}\" jest --config jest-config.js --color"
   },
   "devDependencies": {
     "@babel/core": "7.13.14",
